@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Home-Work-It-Incubator/static/css/main.7f1e247d.css",
-    "main.js": "/Home-Work-It-Incubator/static/js/main.4e969cb6.js",
+    "main.css": "/Home-Work-It-Incubator/static/css/main.267e7897.css",
+    "main.js": "/Home-Work-It-Incubator/static/js/main.16dd02c9.js",
     "static/js/787.66cb4309.chunk.js": "/Home-Work-It-Incubator/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/Home-Work-It-Incubator/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/Home-Work-It-Incubator/index.html",
-    "main.7f1e247d.css.map": "/Home-Work-It-Incubator/static/css/main.7f1e247d.css.map",
-    "main.4e969cb6.js.map": "/Home-Work-It-Incubator/static/js/main.4e969cb6.js.map",
+    "main.267e7897.css.map": "/Home-Work-It-Incubator/static/css/main.267e7897.css.map",
+    "main.16dd02c9.js.map": "/Home-Work-It-Incubator/static/js/main.16dd02c9.js.map",
     "787.66cb4309.chunk.js.map": "/Home-Work-It-Incubator/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f1e247d.css",
-    "static/js/main.4e969cb6.js"
+    "static/css/main.267e7897.css",
+    "static/js/main.16dd02c9.js"
   ]
 }
