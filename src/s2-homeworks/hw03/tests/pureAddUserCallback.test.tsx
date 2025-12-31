@@ -1,11 +1,17 @@
 import React from 'react'
-import {pureAddUserCallback} from '../HW3'
+import {pureAddUserCallback, type UserType} from '../HW3'
 
-let initialState: any[]
-const setName = (a: any[]) => {
-    initialState = a
+let initialState: UserType[]
+const setName = (value: React.SetStateAction<UserType[]>) => {
+    if (typeof value === 'function') {
+        // Если передана функция-обновление
+        const updater = value as (prev: UserType[]) => UserType[]
+        initialState = updater(initialState)
+    } else {
+        // Если передано значение
+        initialState = value
+    }
 }
-
 beforeEach(() => {
     initialState = []
 })

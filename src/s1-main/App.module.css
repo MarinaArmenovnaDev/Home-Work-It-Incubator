@@ -11,8 +11,5 @@
 .hwTitle {
     font: 600 22px "Montserrat", sans-serif;
     color: #000;
-    margin-left: 70px;
-    margin-bottom: 10px;
-
-
+    margin: 70px 0 10px 70px;
 }

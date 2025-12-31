@@ -1,35 +1,106 @@
 .greetingForm {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
 }
 
 .error {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cc0000;
+    margin-top: 5px;
+    min-height: 20px;
 }
 
 .input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
 }
 
 .input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+}
+
+.input:hover:not(:focus) {
+    border-color: #999;
 }
 
 .errorInput {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.errorInput:focus {
+    outline: none;
+    border-color: #cc0000;
+    box-shadow: 0 0 0 2px rgba(204, 0, 0, 0.2);
 }
 
 .button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 24px;
+    width: 78px;
+    height: 36px;
+    color: white;
+    background: #0066cc;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
 }
+
 
 .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.3);
 }
 
-.button:active {
-}
 
 .button:disabled {
+    background: #0066cc;
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
 }
 
 .greeting {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
 }
