@@ -1,11 +1,24 @@
 .spanBlock {
+    display: flex;
+    gap: 10px;
+    align-self: center;
 }
 
 .span {
+    font: 500 16px "Montserrat", sans-serif;
+    color: #0080ff;
+    text-transform: capitalize;
 }
 
 .input {
+    width: 276px;
+    height: 36px;
+    padding: 8px 24px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
 }
 
 .pen {
+    height: 24px;
+    width: 24px;
 }
